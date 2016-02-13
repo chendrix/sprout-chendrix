@@ -77,6 +77,7 @@ node_attributes:
         - google-chrome
         - google-drive
         - lyx
+        - mactex
         - macvim
         - pocket
         - spotify
