@@ -36,23 +36,11 @@ recipes:
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
+      domain: pivotal.io
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
-      projects:
-        -
-          name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+        - initials: ch
+          name: Chris Hendrix
+          username: chendrix
     terminal:
       default_profile: 'Pro'
     settings:
@@ -62,7 +50,7 @@ node_attributes:
       auto_hide: true
       clear_apps: true
       tile_size: 35
-      magnification: false
+      magnification: true
     homebrew:
       formulae:
         - ctags-exuberant
@@ -81,15 +69,17 @@ node_attributes:
         - rbenv-gem-rehash
       casks:
         - ccmenu
+        - dash
         - firefox
         - flycut
         - rowanj-gitx
         - github
         - google-chrome
         - google-drive
-        - google-hangouts
+        - lyx
         - macvim
-        - skype
+        - pocket
+        - spotify
         - textmate
         - vagrant
         - virtualbox
